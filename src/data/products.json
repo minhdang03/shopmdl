@@ -1,0 +1,22 @@
+{
+    "products": [
+      {
+        "id": "product_1",
+        "name": "Áo thun nam",
+        "price": 150000,
+        "image": "/images/ao-thun.jpg"
+      },
+      {
+        "id": "product_2", 
+        "name": "Quần jean",
+        "price": 450000,
+        "image": "/images/quan-jean.jpg"
+      },
+      {
+        "id": "product_3",
+        "name": "Giày thể thao",
+        "price": 850000,
+        "image": "/images/giay.jpg"
+      }
+    ]
+  }
