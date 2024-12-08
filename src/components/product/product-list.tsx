@@ -49,11 +49,12 @@ export default function ProductList() {
                 : `${API_URL}/api/products?category_id=${activeCategory}`;
 
             const response = await fetch(url, {
+                method: 'GET',
                 headers: {
                     'Accept': 'application/json',
-                    'Content-Type': 'application/json',
-                    'X-Requested-With': 'XMLHttpRequest'
-                }
+                    'Content-Type': 'application/json'
+                },
+                mode: 'cors'
             });
             
             if (!response.ok) {
